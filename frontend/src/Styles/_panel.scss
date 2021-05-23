@@ -1,0 +1,33 @@
+.restaurant-panel{
+    
+    .input-row{
+        margin-bottom: 3rem;
+        .photo-header{
+            align-items: center;
+        }
+    }
+
+    textarea {
+        -webkit-appearance:none;
+        width:100%;
+        height:150px;
+        resize: none;
+    }
+    .img{
+        height: 350px;
+        width: 100%;
+    }
+
+    .photo-selecter{
+        margin:1rem 1rem;
+    }
+
+    .submit-row{
+        margin:1rem 1rem;
+        float: right;
+        .btn{
+            margin-left: 0.5rem;
+        }
+    }
+  
+}
