@@ -1,0 +1,38 @@
+
+
+.about{
+    .main-article{
+        .header{
+            letter-spacing: 2px;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+    }
+
+    .side-content{
+        margin-top:180px;
+        box-sizing: border-box;
+        text-align: center;
+        .column-vision{
+            float: right;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+        }
+
+        .column-mision{
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+        }
+
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    }
+}

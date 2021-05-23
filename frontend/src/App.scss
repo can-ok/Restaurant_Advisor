@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import './Styles/home.scss';
+@import './Styles/layout.scss';
+@import './Styles/navbar.scss';
+@import './Styles/_suggestion';
+@import './Styles/about';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#a4acc4;
+    font-family: 'Cardo', serif;
+    font-size: 1.2rem;
+}
+
+span{
+    color: #0c2379;
+}
+
+.advTime{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
